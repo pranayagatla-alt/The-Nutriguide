@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    font-family: Ariat;
+    border: border-box;
+}
+.navbar {
+    height: 70px;
+    background-color: #aedb7b;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-all i {
+    font-size: 30px;
+}
+.nav-all {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.nav-logo {
+    height: 50px;
+    width: 110px;
+    margin-bottom: 3px;
+}
+
+.logo {
+    background-image: url(logo.n.jpeg);
+    background-size:cover;
+    height: 55px;
+    width: 120px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid rgb(42, 42, 99);
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/** box2 **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: slategrey;
+    width: 1000px;
+    height: 44px;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 80px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 120%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#239b1c;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-search:hover {
+    border:2px solid black;
+}
+/** box3 **/
+.nav-fav i {
+    font-size: 40px;
+}
+.nav-fav {
+    font-size: 0.85ren;
+    font-weight: 700;
+}
+/** hero-section **/
+.hero-section {
+    background-image: url("hero.jpeg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-message {
+    background-color: #c1e1c1;
+    color: black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.hero-message a {
+    color:blue;
+}
+.msg-categories{
+    background-color: #96ded1;
+    color: rgb(33, 3, 3);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+}
+.food-section1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9fe2bf;
+}
+.box{
+    height: 350px;
+    width: 20%;
+    background-color: #f3f3f3;
+    padding: 20px 0px 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.msg-categories{
+    background-color: #478778;
+    color: #f3f3f3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+}
+.box-img{
+    height: 250px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.box-content{
+    text-align: center;
+}
+.box-content p{
+    color: #088ad1 ;
+    text-align: left;
+    font-size: 1.2rem;
+    
+}
+.msg-new{
+    background-color: #478778;
+    color: #40826d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 5px;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #f3f3f3;
+}
+.more-details{
+    background-color: #9fe2bf;
+    height: 30px;
+    color: azure;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.more-details i{
+    font-size: 1.2rem;
+}
+.more-sub{
+    height: 25px;
+    width: 175px;
+    background-color: #478778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.food-section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #9fe2bf;
+}
+.boxx{
+    height: 350px;
+    width: 21%;
+    background-color: #f3f3f3;
+   /* padding: 20px 0px 15px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+ .msg-categories{
+    background-color: #478778;
+    color: #f3f3f3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+}
+/*.box-content1{
+    text-align: center;
+}*/
+.more{
+    display: flex;
+    justify-content: end;
+    height: 25px;
+    text-align:end;
+    align-items: flex-end;
+    padding-right: 5px;
+}
+.box-content1 p{
+    color: #088ad1 ;
+    font-size: 1.2rem;
+}    
+ .msg-new{
+    background-color: #478778;
+    color: #40826d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 5px;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #f3f3f3;
+}
+.more-details{
+    background-color: #9fe2bf;
+    height: 40px;
+    color: azure;
+    font-size: 600;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.more-details i{
+    font-size: 1.2rem;
+}
+.more-sub{
+    height: 35px;
+    width: 300px;
+    background-color: #478778;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+   
+ .food-section3{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #9fe2bf;
+}
+.boxxx{
+    height: 355px;
+    width: 40%;
+    background-color: #f3f3f3;
+  /* padding: 20px 0px 15px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+.box-img2{
+   /*background-repeat: no-repeat;*/
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+
+}
+ .msg-categories{
+    background-color: #478778;
+    color: #f3f3f3;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+}
+/*.box-content{
+    text-align: center;
+}*/ 
+.more1{
+    display: flex;
+    justify-content: end;
+    height: 85px;
+    text-align:end;
+    align-items: flex-end;
+    padding-right: 5px;
+}
+.boxxx-content1 p{
+    color: #088ad1 ;
+    font-size: 1.2rem;
+}    
+ .msg-new{
+    background-color: #478778;
+    color: #40826d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 5px;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #f3f3f3;
+}
+
+.hero-section2{
+    background-image: url(h2.jpg);
+    background-size: cover;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel1{
+    background-color:#478778;
+    color:white;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.foot-panel2{
+    background-color:#9fe2bf ;
+    color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display: block;
+    font-size: 0.95rem;
+    height: 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+.foot-panel3{
+    background-color:#478778 ;
+    height: 30px;
+    padding-left: 10px;
+}
+.foot-panel3{
+    font-size: 1.2rem;
+}
+.foot-panel4{
+    background-color: #478778;
+    height: 80px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel4 i{
+    font-size: 2.0rem;
+}
+.food-section3 p{
+    display:flex ;
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 420px;
+    padding-right: 10px;
+}
+.food-section3 i{
+    font-size: 3rem;
+    padding-top: 200px;
+
+}
+.food-section2 i{
+    font-size: 3rem ;
+    padding-top: 200px;
+}
+.food-sub1 p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.food-sub2 p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
