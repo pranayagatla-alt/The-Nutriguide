@@ -1,45 +1,600 @@
 <!DOCTYPE html>
-<head>
-    <script src=""crossorigin="anonymous"></script>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    body{
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .box{
-        background-color:#eee;
-        width: 330px;
-        height: 50px;
-        border-radius: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0px 25px;
-    }
-    input{
-        width: 240px;
-        border:none;
-        outline:none;
-        background: none;
-        font-size: 18px;
-    }
-    .fa-solid:hover{
-    color: brown;
-    cursor: pointer;
-    }
-</style>
-<body>
-    <div class="box">
-        <input type="text"
-        placeholder="search">
-        <i class="fa - solid fa-magnifying-glass"></i>
-    </div>
-</body>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>The Nutriguide</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="nav-all">
+                    <i class="fa-solid fa-bars"></i>
+                    All
+                </div>
+                <div class="nav-logo border">
+                    <div class="logo"></div>
+                </div>
+                <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                    </select>
+                    <input placeholder="search Nutriguide" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="nav-fav border">
+                    <i class="fa-solid fa-heart"></i>
+                    Wishlist
+                </div>
+                
+            </div>     
+       </header>
+
+       <div class="hero-section">
+        <div class ="hero-message">
+            <p>You are on Nutriguide website.com for best nutrition and diet suggestions and fast recovery .<a>Click here to go to Nutriguide.in</a></p>
+        </div>
+       </div>
+       <div class="msg-categories">
+        <p>Categories</p>
+       </div>
+       <div class="sub-heading">
+          <p>Daily Food Diet</p>
+       </div>
+       <div class="food-section1">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>BREAKFAST</h2>
+                <div class="box-img" style="background-image: url('breakfast.jpg');height: 260px;">
+             </div>
+             <p>More Details</p>
+        </div>
+       </div>
+      <div class="box2 box">
+            <div class="box-content">
+                <h2>LUNCH</h2>
+                <div class="box-img" style="background-image: url('lunch.jpg');height: 260px;">
+             </div>
+             <p>More Details</p>
+             </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2>SNACKS</h2>
+                <div class="box-img" style="background-image: url('snacks.jpg');height: 260px;">
+             </div>
+             <p>More Details</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2>DINNER</h2>
+                <div class="box-img" style="background-image: url('dinner.jpg');height: 260px;">
+             </div>
+             <p>More Details</p>
+            </div>
+        </div>
+       </div>
+       <div class="more-details">
+        <div class="more-sub border">
+            MORE DETAILS
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+       </div>
+
+       <div class="sub-heading">
+        <p>Based on Health Issues</p>
+       </div>
+        <div class="food-section2">
+         <div class="box1 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">DIABETES</h2>
+                <div class="box-img1" style="background-image: url('di.jpg');height: 230px;width: 60%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Diabetes is a condition that happens when your blood sugar is high.</p>
+             </div>
+             <div class="more">
+             <a href="diabetes.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box2 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">BLOOD PRESSURE</h2>
+                <div class="box-img1" style="background-image: url('bp.jpg');height: 230px;width: 70%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Blood pressure is the measure of the force of blood inside the arteries.</p>
+             </div>
+             <div class="more">
+             <a href="bp.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box3 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">CHOLESTEROL</h2>
+                <div class="box-img1" style="background-image: url('ch.jpg');height: 220px;width: 70%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Cholesterol is a condition with excess fat-like substances in the blood causing artery-clogging plaque.</p>
+             </div>
+             <div class="more">
+             <a href="cholesterol.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box4 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">THYROID</h2>
+                <div class="box-img1" style="background-image: url('th.jpg');height: 230px;width: 72%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">• Thyroid is a part of endocrine system it controls body's important functions.</p>
+             </div>
+             <div class="more">
+             <a href="thyroid.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box5 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">ASTHMA</h2>
+                <div class="box-img1" style="background-image: url('asthma.jpg');height: 230px;width: 70%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Asthma is the condition that causes long-term inflammation in airways.</p>
+             </div>
+             <div class="more">
+             <a href="asthma.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box6 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">KNEE PAIN</h2>
+                <div class="box-img1" style="background-image: url('kp.jpg');height: 230px;width: 73%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Knee pain is caused by arthritis, patellofemoral syndrome.</p>
+             </div>
+             <div class="more">
+             <a href="kneepain.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box7 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">CANCER</h2>
+                <div class="box-img1" style="background-image: url('cancer.jpg');height: 210px;width: 66%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Cancer involves uncontrolled cell growth resulting in tumors with potential to spread other parts of body.</p>
+             </div>
+             <div class="more">
+             <a href="cancer.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box8 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">EYE SIGHT</h2>
+                <div class="box-img1" style="background-image: url('eye.jpg');height: 230px;width: 70%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Eyesight has refractive errors (Myopia,Hypermetropia,Presbyopia).</p>
+             </div>
+             <div class="more">
+             <a href="eyesight.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box9 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">KIDNEY DISEASES</h2>
+                <div class="box-img1" style="background-image: url('kidney.jpg');height: 220px;width: 55%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Kidney diseases effect body's ability to clean blood and help control of blood pressure.</p>
+             </div>
+             <div class="more">
+             <a href="kidney.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box10 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">BRAIN TUMOR</h2>
+                <div class="box-img1" style="background-image: url('brain.jpg');height: 220px;width: 70%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Brain tumor occurs when a group of cells within the brain grow out of control,creating a mass.</p>
+             </div>
+             <div class="more">
+             <a href="braintumor.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box11 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">TUBERCULOSIS</h2>
+                <div class="box-img1" style="background-image: url('tuberculosis.jpg');height: 220px;width: 71%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Tuberculosis is a contagious bacterial infection caused by Mycobacterium tuberculosis.</p>
+             </div>
+             <div class="more">
+             <a href="tuberculosis.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+         <div class="box12 boxx">
+            <div class="box-content1">
+                <style>
+                .box-img1{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">SKIN DISEASES</h2>
+                <div class="box-img1" style="background-image: url('sd.jpg');height: 220px;width: 68%;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•Skin diseases affects skin causing rashes, inflammation,itchiness or other skin changes.</p>
+             </div>
+             <div class="more">
+             <a href="skin.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+         </div>
+         <div class="more-details">
+        <div class="more-sub border">
+            MORE HEALTH ISSUES
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+       </div>
+
+        <div class="sub-heading">
+          <p>Precautions For Health Issues</p>
+        </div>
+        <div class="food-section3">
+         <div class="box1 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{float:left;display: flex;align-items: right;justify-content: right;margin-right: 20px;width:200px;}
+                .right{text-align: right;overflow: auto;}
+                    </style>
+                <h2 style="text-align: center;">DIABETES</h2>
+                <div class="box-img2" style="background-image: url('d.jpg');height: 310px;width: 50%;margin-left: 10px;">
+             </div>
+             <div class="right">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Moong dal chilla with mint chutney,veggie oats,ragi dosa....</p>
+                <p style="color: black;text-align:left;padding-left:5px;padding-top:10px;">•LUNCH:Multigrain rotis,1bowl dal,mixed vegetable curry...</p>
+                <p style="color: black;text-align:left;padding-left:5px;padding-top :10px;">•SNACKS:Green tea,roasted makhanas,sprouts.....</p>
+                <p style="color: black;text-align:left;padding-left:5px;padding-top:10px;">•DINNER:Grilled panner/chicken with sauteed veg....</p>
+             </div>
+             <div class="more1">
+             <a href="diabetesection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box2 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: flex;margin-left:auto;margin-right:auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">BLOOD PRESSURE</h2>
+                <div class="box-img2" style="background-image: url('bpp.jpg');height: 310px;width: 43%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Oatmeal topped with berries and a handful of almonds...</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Grilled chicken salad with leafy greens,tomatoes,and olive oil dressing...</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:Carrot sticks with hummus,a banana or greek yougart....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Baked salmon with quinoa and stamed broccoli....</p>
+             </div>
+             <div class="more1">
+             <a href="bpsection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+        <div class="box3 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">CHOLESTEROL</h2>
+                <div class="box-img2" style="background-image: url('chh.jpg');height: 310px;width: 40%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Oatmeal topped with walnuts and berries,or chia seeds....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Salad with leafy greens, chickpeas,or brown rice with lenticles...</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:A handful of raw almonds,an apple,or carrot sticks with hummus....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Baked salmon or mackerel with steamed asparagus and roasted sweet potatoes.....</p>
+             </div>
+             <div class="more1">
+             <a href="cholesterolsection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box4 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">EYESIGHT</h2>
+                <div class="box-img2" style="background-image: url('es.jpg');height: 310px;width: 44%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Spinach and mushroom omelet or oatmeal with flaxseeds....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Mixed green salad with grilled salmon or tuna(omega-3s).....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:A handful of almonds,carrots with hummus,or citrus fruits like oranges and berries....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Baked tilapia,steamed broccoli,and a sweet potato......</p>
+             </div>
+             <div class="more1">
+                <a href="eyesightsection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box5 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">THYROID</h2>
+                <div class="box-img2" style="background-image: url('thh.jpg');height: 310px;width:65%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Oats,ragi, whole-grain toast.....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Multigrain roti,brownrice,dal....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:Makhana, ginger tea....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:grilled fish,chicken,moong dal kichidi....</p>
+             </div>
+             <div class="more1">
+             <a href="thyroidsection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box6 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">SKIN DISEASES</h2>
+                <div class="box-img2" style="background-image: url('sk.jpg');height: 305px;width: 65%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:berries, walnuts,flaxseeds....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Tofu salad, grilled salmon with leafy greens,bell peppers.....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:Yogurt,carrot</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:broccoli, chickenbreast,lentil.....</p>
+             </div>
+             <div class="more1">
+             <a href="skinsection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box7 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">BRAIN TUMOR</h2>
+                <div class="box-img2" style="background-image: url('bt.jpg');height: 310px;width: 52%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Scrambled eggs,tomatoes,mushrooms.....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Chicken or grilled salmon salad with dark leafy greens,quinoa....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:Walnuts,Greek yougart with berries,apple,peanut butter....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Baked tilapia with leamon,roasted sweet potatoes....</p>
+             </div>
+             <div class="more1">
+             <a href="brainsection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box8 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">KNEE PAIN</h2>
+                <div class="box-img2" style="background-image: url('kn.jpg');height: 310px;width:40%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Oats upma with nuts,wheat dosas with green chutney....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Brown rice,lenticles,leafy green salad,fish curry(Salmon/mackerel)....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:A handful of walnuts or almonds.....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:2-3 Rotis with vegetable subji(okra /bitter gourd),small bowl of low fat curd....</p>
+             </div>
+             <div class="more1">
+             <a href="kneesection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box9 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">KIDNEY DISEASES</h2>
+                <div class="box-img2" style="background-image: url('ki.jpg');height: 310px;width: 45%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Egg white omelet with mushrooms and onions,served with sourdough bread....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Grilled chicken salad with olive oil,cucumber,and lettuce.....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:Red grapes,apples or unsalted popcorn....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Baked fish(tilapia) with roasted cauliflower and white rice.....</p>
+             </div>
+             <div class="more1">
+             <a href="kidneysection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box10 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">CANCER</h2>
+                <div class="box-img2" style="background-image: url('pc.jpg');height: 310px;width: 47%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:oatmeal,flaxseeds /berries,eggs/paneer,spinach,grain....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:salad with chickpeas/beans and olive oil dressing,grilled tofu/chicken with quinoa,broccoli....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:Greek yogurt with honey,avocado,nuts or fruits....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Baked salmon or tofu with sweet potato and roasted vegetables....</p>
+             </div>
+             <div class="more1">
+             <a href="cancersection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box11 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">TUBERCULOSIS</h2>
+                <div class="box-img2" style="background-image: url('tub.jpg');height: 250px;width: 65%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Moong dal chilla with curd, boiled eggs with toast..</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Rice/roti,dal, vegetables,paneer....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:chana,nuts (walnuts),green tea.....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Similar to lunch but lighter....</p>
+             </div>
+             <div class="more1">
+             <a href="tuberculosissection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+          <div class="box12 boxxx">
+            <div class="boxxx-content1">
+                <style>
+                .box-img2{display: block;margin-left: auto;margin-right: auto;}
+                .center{text-align: center;}
+                    </style>
+                <h2 style="text-align: center;">ASTHMA</h2>
+                <div class="box-img2" style="background-image: url('A.jpg');height: 280px;width: 64%;margin-left: 10px;">
+             </div>
+             <div class="center">
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•BREAKFAST:Berries, oatmeal,eggs,spinach....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•LUNCH:Salmon salad, mixed greens,lentil....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•SNACKS:Citrus,banana ,yogurt,seeds.....</p>
+                <p style="color: black;text-align: left;padding-left: 5px;padding-top: 10px;">•DINNER:Grilled chicken,roasted root vegetables,brown rice....</p>
+             </div>
+             <div class="more1">
+             <a href="asthmasection.html">More Details</a>
+             </div>
+         </div> 
+          </div>
+           </div>
+           <div class="more-details">
+        <div class="more-sub border">
+            MORE HEALTH ISSUES
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+       </div>
+
+        <div class="hero-section2">
+        </div>
+       <footer>
+        <div class="foot-panel1">
+            NUTRIGUIDE...Turning discovery into Health.
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <a>•PrivacyPolicy</a>
+                <a>•Accessibility</a>
+            </ul>
+            <ul>
+                <a>•Disclaimers</a>
+                <a>•Copyright</a>
+            </ul>
+            <ul>
+                <a>•SiteMap</a>
+                <a>•FAQs</a>
+            </ul>
+            <ul>
+                <a>•Customer Services</a>
+                <a>•Institutes of Health</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            Follow Us:
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+        </div>
+        <div class="foot-panel4">
+            <div class="food-items">
+                    <h4>CONTACT US</h4>
+                    <p>Email:customercare@thenutriguide.com</p>
+                    <p>Phone:+44 (0)657 8221</p>
+            </div>
+        </div>
+
+       </footer>
+    </body>
+
+
+</html>
