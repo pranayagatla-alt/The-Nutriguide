@@ -440,3 +440,91 @@ ul a{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/*chatgpt code  */
+/* GLOBAL FIX */
+* {
+    box-sizing: border-box;
+}
+
+/* FLEX WRAP FOR ALL SECTIONS */
+.food-section1,
+.food-section2,
+.food-section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* DEFAULT DESKTOP */
+.box {
+    width: 22%;
+}
+
+.boxx {
+    width: 22%;
+}
+
+.boxxx {
+    width: 45%;
+}
+
+/* TABLET VIEW */
+@media (max-width: 1024px) {
+    .box, .boxx {
+        width: 45%;
+    }
+
+    .boxxx {
+        width: 90%;
+    }
+
+    .nav-search {
+        width: 70%;
+    }
+}
+
+/* MOBILE VIEW */
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    .box, .boxx, .boxxx {
+        width: 90%;
+    }
+
+    .hero-section {
+        height: 250px;
+    }
+
+    .hero-message {
+        font-size: 0.7rem;
+        height: auto;
+        padding: 10px;
+    }
+
+    .sub-heading {
+        font-size: 1.2rem;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+}
