@@ -440,7 +440,175 @@ ul a{
     padding-left: 10px;
     padding-right: 10px;
 }
+.food-section4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #9fe2bf;
+}
+.boxxxx{
+    height:400px;
+    width: 21%;
+    background-color: #f3f3f3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+.box-img4{
+    height: 247px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.msg-new{
+    background-color: #478778;
+    color: #40826d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 5px;
+}
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background-color: #f3f3f3;
+}
+.more{
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+    text-align: end;
+    align-items: flex-end;
+    padding-right: 5px;
+}
+.box-content2{
+    text-align: center;
+}
+.box-content2 a{
+    color: #088ad1;
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:5px ;
+}
+.end-page1{
+    height: 50px;
+    background-color:#9fe2bf;
+}
+.breakfast-hero-section3{
+    background-image: url("bf hs.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+} 
+.hero-message3{
+    background-color: #c1e1c1;
+    color:#000000;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.hero-message3 a{
+    color:#007185;
+}
+.snacks-hero-section4{
+    background-image: url("s hs.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+} 
+.hero-message4{
+    background-color: #c1e1c1;
+    color:#000000;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.hero-message4 a{
+    color:#007185;
+}
+.lunch-hero-section5{
+    background-image: url("l hs.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+} 
+.hero-message5{
+    background-color: #c1e1c1;
+    color:#000000;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.hero-message5 a{
+    color:#007185;
+}
+.dinner-hero-section6{
+    background-image: url("d hs.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+} 
+.hero-message6{
+    background-color: #c1e1c1;
+    color:#000000;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.hero-message6 a{
+    color:#007185;
+}
 
+
+
+   
 
 
 
